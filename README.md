@@ -1,2 +1,62 @@
-# DW-Healthcare
-Avaliação P2 da disciplina de Bancos e Armazém de Dados no curso de Ciência de Dados da Fatec Jundiaí, ministrada pelo professor Rafael Gross.
+# Data Warehouse Olist com DuckDB
+
+## 📌 Descrição do Projeto
+
+Este projeto constrói um Data Warehouse completo utilizando o dataset Olist (Brazilian E-commerce).
+Todo o pipeline foi desenvolvido para rodar facilmente no Google Colab, utilizando:
+
+DuckDB como banco analítico
+
+Python + SQL para staging, dimensões e fato
+
+KaggleHub para baixar o dataset diretamente
+
+Matplotlib para visualização
+
+EXPLAIN ANALYZE para otimização
+
+## 🧠 Pipeline
+O fluxo do trabalho segue uma arquitetura moderna de dados com as seguintes camadas:
+
+Staging – Leitura direta dos arquivos brutos em views
+
+OLTP (Modelo Operacional) – Normalização e padronização dos dados
+
+DW (Data Warehouse)
+
+Criação das tabelas dimensão
+
+Construção da tabela fato
+
+Visualizações – Análises exploratórias e métricas
+
+Performance – Otimização via tabela agregada + comparação com EXPLAIN ANALYZE
+
+Todo o projeto é automatizado dentro do notebook.
+
+## 🛠️ 1. Pré-requisitos
+
+Como o projeto roda no Google Colab, você só precisa de:
+
+✔️ Uma conta Google
+✔️ O arquivo do notebook:
+
+Banco_Dados_P2.ipynb
+
+✔️ As bibliotecas são instaladas automaticamente no próprio noteboo, nada precisa ser instalado na máquina local.
+
+## 📂 3. Estrutura do Projeto
+📦 olist_dw_project/
+
+  ├── Banco_Dados_P2.ipynb        -> Notebook principal com todo o pipeline
+  
+  ├── olist_dw.duckdb     ->       Banco gerado após execução
+  
+  └── scripts/
+
+      ├── 00_staging.sql          - Views de leitura bruta (staging)
+      ├── 01_oltp.sql             - Modelo OLTP: normalização e padronização
+      ├── 02_dw_model.sql         - Criação de dimensões e fato (modelo estrela)
+      ├── 03_etl_load.sql         - Processo ETL de carga no DW
+      ├── 04_analytics.sql        - Validação do DW
+      └── 05_performance.sql      - Tabela agregada + EXPLAIN ANALYZE
