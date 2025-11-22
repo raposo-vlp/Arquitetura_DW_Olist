@@ -4,13 +4,13 @@ Projeto desenvolvido para a conclusão da disciplina de Bancos e Armazéns de Da
 
 Integrantes do projeto:
 
-- Ariel Ladislau Reises
+- Ariel Ladislau Reises | [LinkedIn](https://www.linkedin.com/in/arielreises/) | [GitHub](https://github.com/arielreises/) | [Site](https://arielreises.com.br)
 
-- João Paulo Martins
+- João Paulo Martins | [LinkedIn](https://www.linkedin.com/in/joão-paulo-martins-0008962b7/)
 
-- Matheus Castro Alexandre
+- Matheus Castro Alexandre | [LinkedIn](https://www.linkedin.com/in/matheuscastrocdd/)
 
-- Thiago Macedo Vaz
+- Thiago Macedo Vaz | [LinkedIn](https://www.linkedin.com/in/thiagomacedovaz/)
 
 - Sofia Pena
 
