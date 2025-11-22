@@ -1,5 +1,19 @@
 # Data Warehouse Olist com DuckDB
 
+Projeto desenvolvido para a conclusão da disciplina de Bancos e Armazéns de Dados do curso de Ciência de Dados da Fatec Jundiaí, ministrada pelo professor Rafael Gross.
+
+Integrantes do projeto:
+
+- Ariel Ladislau Reises
+
+- João Paulo Martins
+
+- Matheus Castro Alexandre
+
+- Thiago Macedo Vaz
+
+- Sofia Pena
+
 ## 📌 Descrição do Projeto
 
 Este projeto constrói um Data Warehouse completo utilizando o dataset Olist (Brazilian E-commerce).
@@ -41,14 +55,14 @@ Como o projeto roda no Google Colab, você só precisa de:
 ✔️ Uma conta Google
 ✔️ O arquivo do notebook:
 
-Banco_Dados_P2.ipynb
+Arquitetura_DW_Olist.ipynb
 
 ✔️ As bibliotecas são instaladas automaticamente no próprio noteboo, nada precisa ser instalado na máquina local.
 
 ## 📂 3. Estrutura do Projeto
 📦 olist_dw_project/
 
-  ├── Banco_Dados_P2.ipynb        -> Notebook principal com todo o pipeline
+  ├── Arquitetura_DW_Olist.ipynb        -> Notebook principal com todo o pipeline
   
   ├── olist_dw.duckdb     ->       Banco gerado após execução
   
