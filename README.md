@@ -57,7 +57,7 @@ Como o projeto roda no Google Colab, você só precisa de:
 
 Arquitetura_DW_Olist.ipynb
 
-✔️ As bibliotecas são instaladas automaticamente no próprio noteboo, nada precisa ser instalado na máquina local.
+✔️ As bibliotecas são instaladas automaticamente no próprio notebook, nada precisa ser instalado na máquina local.
 
 ## 📂 Estrutura do Projeto
 📦 olist_dw_project/
