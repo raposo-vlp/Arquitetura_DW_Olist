@@ -48,7 +48,7 @@ Performance – Otimização via tabela agregada + comparação com EXPLAIN ANAL
 
 Todo o projeto é automatizado dentro do notebook.
 
-## 🛠️ 1. Pré-requisitos
+## 🛠️ Pré-requisitos
 
 Como o projeto roda no Google Colab, você só precisa de:
 
@@ -59,7 +59,7 @@ Arquitetura_DW_Olist.ipynb
 
 ✔️ As bibliotecas são instaladas automaticamente no próprio noteboo, nada precisa ser instalado na máquina local.
 
-## 📂 3. Estrutura do Projeto
+## 📂 Estrutura do Projeto
 📦 olist_dw_project/
 
   ├── Arquitetura_DW_Olist.ipynb        -> Notebook principal com todo o pipeline
