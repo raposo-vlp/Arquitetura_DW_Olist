@@ -1,6 +1,6 @@
 # Data Warehouse Olist com DuckDB
 
-Projeto desenvolvido para a conclusão da disciplina de Bancos e Armazéns de Dados do curso de Ciência de Dados da Fatec Jundiaí, ministrada pelo professor Rafael Gross.
+Projeto desenvolvido para a conclusão da disciplina de Bancos e Armazéns de Dados do curso de Ciência de Dados da Fatec Jundiaí, ministrada pelo professor Rafael Gross | [LinkedIn](https://www.linkedin.com/in/prof-rafaelgross/?originalSubdomain=br) | [Site](rafaelgross.pro.br).
 
 Integrantes do projeto:
 
